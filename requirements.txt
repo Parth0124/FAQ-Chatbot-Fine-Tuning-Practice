@@ -1,0 +1,23 @@
+# Transformers and model loading
+transformers==4.41.2
+datasets==2.19.1
+peft==0.11.1
+
+# Quantization support (optional for QLoRA)
+bitsandbytes==0.43.1
+
+# Training
+accelerate==0.30.1
+
+# Tokenizer & model loading
+sentencepiece
+scipy
+huggingface_hub
+
+# PyTorch with MPS support (macOS)
+torch==2.3.0
+torchaudio==2.3.0
+torchvision==0.18.0
+
+# Utility (for json, tqdm etc.)
+tqdm
