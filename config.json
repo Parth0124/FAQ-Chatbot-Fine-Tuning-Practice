@@ -1,0 +1,15 @@
+{
+  "model_name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "dataset_path": "/Users/parth/Documents/FAQ Chatbot/data/data.jsonl",
+  "output_dir": "/Users/parth/Documents/FAQ Chatbot/models/tinyllama-lora",
+  "batch_size": 4,
+  "micro_batch_size": 2,
+  "num_epochs": 3,
+  "learning_rate": 2e-5,
+  "weight_decay": 0.01,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "quantization": false,
+  "use_flash_attention": false
+}
